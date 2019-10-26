@@ -1,0 +1,37 @@
+body{
+    background-image: url("https://static.brusheezy.com/system/resources/previews/000/056/384/non_2x/3d-round-circle-background-photoshop-backgrounds.jpg");
+}
+
+#animalBtnSection{
+    margin: 20px;
+    margin-right: 5px;
+    border: 2px solid lightgray;
+}
+
+.btn-success {
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: lightslategrey;
+}
+
+.enter-country{
+    margin-top: 5px;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+#userInputs{
+       
+        width: 200px;
+        border: solid 2px black;
+}
+
+#submit-btn{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 70px;
+}
