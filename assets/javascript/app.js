@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var countries = ["Austria", "Armenia", "Argentina", "Belarus", "Belgium", "Bulgaria", "Cambodia", "Cameroon", "	Chile", "China", "	Colombia",
+    var countries = ["Africa", "Armenia", "Argentina", "Belgium", "Bulgaria", "Cambodia", "Cameroon", "	Chile", "China", "	Colombia",
         "Cyprus", "Denmark", "Egypt", "	Finland", "	France", "Germany", "Greece", "Haiti", "India", "Jamaica", "Madagascar", "Malta", "	New Zealand"];
     var still = "";
     var animated = "";
@@ -59,7 +59,7 @@ $(document).ready(function () {
                 animated = results[i].images.fixed_height.url;
                 still = results[i].images.fixed_height_still.url;
 
-
+              console.log(results);
 
                 // create image element
 
